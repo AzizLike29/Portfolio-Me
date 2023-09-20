@@ -214,7 +214,7 @@ div.about {
   transform: translateY(40px);
 }
 
-.bagian-about .row .content h3 {
+.bagian-about .row .content h3.teks-about {
   color: #0e2433;
   font-size: 2.4rem;
   margin-bottom: 1rem;
@@ -350,11 +350,11 @@ div.about {
   background-color: #526d82;
 }
 
-.bagian-skill .skill h3,
-.bagian-projek .projek h3,
-.bagian-certif .certif h3,
-.bagian-contact .contact h3,
-.bagian-about .about h3 {
+.bagian-skill .skill h3.skill,
+.bagian-projek .projek h3.projek,
+.bagian-certif .certif h3.certif,
+.bagian-contact .contact h3.contact,
+.bagian-about .about h3.about {
   color: #00c9f3;
   font-size: 1.5rem;
   text-align: center;
@@ -364,18 +364,18 @@ div.about {
   background-color: #9db2bf;
 }
 
-.bagian-about .about h3 {
+.bagian-about .about h3.about {
   bottom: 22%;
   width: 100%;
   position: absolute;
   padding: 0 100px;
 }
 
-.bagian-skill .skill h3 span,
-.bagian-projek .projek h3 span,
-.bagian-certif .certif h3 span,
-.bagian-contact .contact h3 span,
-.bagian-about .about h3 span {
+.bagian-skill .skill h3.skill span.skill2,
+.bagian-projek .projek h3.projek span.projek2,
+.bagian-certif .certif h3.certif span.certif2,
+.bagian-contact .contact h3.contact span.contact2,
+.bagian-about .about h3.about span.about2 {
   color: #0e2433;
 }
 
@@ -709,17 +709,13 @@ button.form:hover {
   transform: scale(0);
 }
 
-/* Responsive Breakpoint */
-
-/* ukuran tablet */
-@media screen and (max-width: 768px) {
+/* Responsive */
+@media (min-width: 210px) and (max-width: 400px) {
+  /* Navbar */
   nav ul {
     width: 50%;
   }
-}
 
-/* ukuran mobile */
-@media screen and (max-width: 576px) {
   .menu-toggle {
     display: flex;
   }
@@ -743,70 +739,107 @@ button.form:hover {
     opacity: 1;
     transform: translateX(0);
   }
-}
+  /* Akhir navbar */
 
-@media (min-width: 210px) and (max-width: 400px) {
-  nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.9);
-    z-index: 2;
+  /* Bagian garis */
+  .bagian-skill .skill h3.skill span.skill2,
+  .bagian-projek .projek h3.projek span.projek2,
+  .bagian-certif .certif h3.certif span.certif2,
+  .bagian-contact .contact h3.contact span.contact2,
+  .bagian-about .about h3.about span.about2 {
+    font-size: 1.1rem;
   }
 
-  nav ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    background-color: rgba(0, 0, 0, 0.9);
-    transform: translateY(-100%);
-    transition: transform 0.3s ease-in-out;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    width: 100%;
+  .bagian-skill .skill h3.skill,
+  .bagian-projek .projek h3.projek,
+  .bagian-certif .certif h3.certif,
+  .bagian-contact .contact h3.contact,
+  .bagian-about .about h3.about {
+    font-size: 1.2rem;
+  }
+  /* Akhir garis */
+
+  /* Bagian home */
+  .home {
+    padding: 5vh;
   }
 
-  nav.active ul {
-    transform: translateY(0);
+  .home-img img {
+    left: 70px;
+    top: 14%;
   }
 
-  nav ul li {
-    margin: 10px 0;
+  .home h2,
+  .home-1 h2 {
+    font-size: 14px;
     text-align: center;
   }
 
-  /* Hamburger menu adjustments */
-  .menu-toggle {
-    display: block;
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    z-index: 3;
-  }
-
-  .home h2 {
-    font-size: 24px;
+  .h-animate .text {
+    font-size: 10px;
     text-align: center;
   }
 
   .download {
-    margin-top: 20px;
-    text-align: center;
+    text-align: left;
+  }
+  /* Akhir home */
+
+  /* bagian about */
+  div.about {
+    margin-left: -54px;
+  }
+
+  h3.about {
+    transform: translateY(10px);
   }
 
   .about-img img {
-    width: 100%;
+    top: 83%;
+    left: 40%;
   }
 
-  .content {
+  .bagian-about .row .content h3.teks-about,
+  .bagian-about .row .content span.teks-about2 {
+    position: relative;
+    font-size: 1.5rem;
+    top: -10%;
+  }
+
+  div.content {
+    text-align: center;
+    font-size: 5px;
+  }
+
+  div.row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
   }
 
+  div.wrapper {
+    position: static;
+    transform: translateY(35%);
+    margin: 0px -20px;
+    text-align: center;
+  }
+
+  .wrapper .icon {
+    display: inline-block;
+    margin: 5px;
+  }
+
+  .wrapper .icon span,
+  .wrapper .icon span i {
+    font-size: 15px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+  }
+  /* Akhir about */
+
+  /* Bagian skill */
   .gambar {
     display: flex;
     flex-wrap: wrap;
@@ -823,7 +856,9 @@ button.form:hover {
     width: 50%;
     text-align: center;
   }
+  /* Akhir skill */
 
+  /* Bagian projek */
   .content-2 {
     display: flex;
     flex-direction: column;
@@ -836,7 +871,9 @@ button.form:hover {
     max-width: 20em;
     text-align: center;
   }
+  /* Akhir Projek */
 
+  /* Bagian certif */
   .content-3 {
     display: flex;
     flex-direction: column;
@@ -852,7 +889,9 @@ button.form:hover {
     width: 100%;
     text-align: center;
   }
+  /* Akhir certif */
 
+  /* Bagian contact */
   .input-group {
     width: 100%;
   }
@@ -862,14 +901,22 @@ button.form:hover {
     width: 100%;
   }
 
+  label {
+    font-size: 8px;
+    font-style: oblique;
+  }
+
   .form {
     width: 100%;
   }
+  /* Akhir contact */
 
+  /* Bagian footer */
   div.foth {
     text-align: center;
     font-size: 10px;
   }
+  /* Akhir footer */
 }
 
 /* Footer */
