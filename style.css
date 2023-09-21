@@ -783,8 +783,8 @@ button.form:hover {
 
   /* Bagian home */
   .home-img img {
-    left: 50px;
-    top: 11%;
+    left: 38px;
+    top: 10%;
     border: 1px solid #fff;
   }
 
@@ -793,7 +793,7 @@ button.form:hover {
     position: relative;
     font-size: 14px;
     text-align: center;
-    bottom: -70px;
+    bottom: -60px;
   }
 
   div#waving-hand {
@@ -807,16 +807,16 @@ button.form:hover {
 
   div.h-animate {
     position: relative;
-    bottom: -50px;
+    bottom: -40px;
     left: -30px;
   }
 
   button.download {
-    right: -13px;
+    right: 5px;
     text-align: center;
     padding: 7px;
     position: relative;
-    bottom: -40px;
+    bottom: -35px;
   }
 
   button.download a {
@@ -827,15 +827,15 @@ button.form:hover {
 
   /* bagian about */
   div.about {
-    margin-left: -75px;
+    margin-left: -80px;
   }
 
   h3.about {
-    transform: translateY(-568%);
+    transform: translateY(-690%);
   }
 
   .about-img img {
-    top: 405px;
+    top: 419px;
     left: 40%;
     border: 1px solid #fff;
   }
