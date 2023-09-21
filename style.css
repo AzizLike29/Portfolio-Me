@@ -800,18 +800,18 @@ button.form:hover {
   }
 
   .h-animate .text {
-    font-size: 9px;
+    font-size: 8px;
     text-align: center;
   }
 
   div.h-animate {
     position: relative;
     bottom: -50px;
-    left: -20px;
+    left: -30px;
   }
 
   button.download {
-    right: -25px;
+    right: -5px;
     text-align: center;
     padding: 7px;
     position: relative;
@@ -830,7 +830,7 @@ button.form:hover {
   }
 
   h3.about {
-    transform: translateY(-10%);
+    transform: translateY(-5%);
   }
 
   .about-img img {
