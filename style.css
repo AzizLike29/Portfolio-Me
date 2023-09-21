@@ -812,7 +812,7 @@ button.form:hover {
   }
 
   button.download {
-    right: 5px;
+    right: 3px;
     text-align: center;
     padding: 7px;
     position: relative;
@@ -827,15 +827,16 @@ button.form:hover {
 
   /* bagian about */
   div.about {
-    margin-left: -80px;
+    margin-left: -85px;
   }
 
   h3.about {
-    transform: translateY(-690%);
+    transform: translateY(-779%);
+    position: fixed;
   }
 
   .about-img img {
-    top: 419px;
+    top: 444px;
     left: 40%;
     border: 1px solid #fff;
   }
