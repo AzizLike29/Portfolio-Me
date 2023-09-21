@@ -714,6 +714,7 @@ button.form:hover {
   /* Bagian navbar */
   html,
   body {
+    width: 100%;
     overflow-x: hidden;
   }
 
@@ -782,8 +783,8 @@ button.form:hover {
 
   /* Bagian home */
   .home-img img {
-    left: 57px;
-    top: 14%;
+    left: 50px;
+    top: 11%;
     border: 1px solid #fff;
   }
 
@@ -811,7 +812,7 @@ button.form:hover {
   }
 
   button.download {
-    right: -5px;
+    right: -13px;
     text-align: center;
     padding: 7px;
     position: relative;
@@ -826,15 +827,15 @@ button.form:hover {
 
   /* bagian about */
   div.about {
-    margin-left: -55px;
+    margin-left: -75px;
   }
 
   h3.about {
-    transform: translateY(-5%);
+    transform: translateY(-568%);
   }
 
   .about-img img {
-    top: 390px;
+    top: 405px;
     left: 40%;
     border: 1px solid #fff;
   }
@@ -848,14 +849,14 @@ button.form:hover {
   .bagian-about .row .content span.teks-about2 {
     position: relative;
     font-size: 1.1rem;
-    top: -5.6%;
+    top: -6%;
     left: 3px;
   }
 
   .bagian-about .row .content p {
     position: relative;
-    bottom: -40px;
-    left: 2px;
+    bottom: -20px;
+    left: 4px;
   }
 
   div.row {
@@ -868,7 +869,7 @@ button.form:hover {
   div.wrapper {
     position: static;
     transform: translateY(70%);
-    margin: 0px 7px;
+    margin: 0px -40px;
     text-align: center;
   }
 
