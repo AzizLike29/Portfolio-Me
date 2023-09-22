@@ -354,7 +354,7 @@ div.about {
 .bagian-projek .projek h3.projek,
 .bagian-certif .certif h3.certif,
 .bagian-contact .contact h3.contact,
-.bagian-about .about h3.about {
+.bagian-about div.about h3.about {
   color: #00c9f3;
   font-size: 1.5rem;
   text-align: center;
@@ -375,7 +375,7 @@ div.about {
 .bagian-projek .projek h3.projek span.projek2,
 .bagian-certif .certif h3.certif span.certif2,
 .bagian-contact .contact h3.contact span.contact2,
-.bagian-about .about h3.about span.about2 {
+.bagian-about div.about h3.about span.about2 {
   color: #0e2433;
 }
 
@@ -402,7 +402,8 @@ div.about {
 .gambar .img-4,
 .gambar .img-5,
 .gambar .img-6,
-.gambar .img-7 {
+.gambar .img-7,
+.gambar .img-8 {
   display: inline-block;
 }
 
@@ -901,7 +902,8 @@ button.form:hover {
   .img-4,
   .img-5,
   .img-6,
-  .img-7 {
+  .img-7,
+  .img-8 {
     width: 50%;
     text-align: center;
   }
