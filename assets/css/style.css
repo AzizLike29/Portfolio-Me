@@ -101,7 +101,7 @@ nav ul li a:hover {
   max-width: 23%;
   position: absolute;
   top: 105px;
-  margin: 0 100px;
+  margin: 0 50px;
   height: auto;
   border-radius: 50%;
   transition: transform 0.2s ease;
@@ -110,7 +110,7 @@ nav ul li a:hover {
 }
 
 .home-1 h2 {
-  margin-left: 5.3%;
+  margin: 0 50px;
   margin-top: 5%;
   letter-spacing: 5px;
   font-size: 50px;
@@ -123,7 +123,7 @@ nav ul li a:hover {
 
 .h-text {
   padding-top: 30px;
-  margin-left: 90px;
+  margin: 0 50px;
 }
 
 .h-animate .text {
@@ -141,7 +141,7 @@ button.download {
   padding: 1em 1.5em;
   font-size: 12px;
   margin: 30px;
-  margin-left: 94px;
+  margin-left: 55px;
   text-transform: uppercase;
   letter-spacing: 2.5px;
   font-weight: 500;
@@ -196,6 +196,7 @@ div.about {
 .bagian-about .row .about-img img {
   width: 23%;
   border-radius: 50%;
+  margin: 10px 100px;
   box-shadow: 0 0 10px rgba(30, 29, 29, 0.5);
   cursor: pointer;
   transition: transform 0.2s ease;
@@ -236,7 +237,7 @@ div.about {
 
 .wrapper {
   display: inline-flex;
-  margin-left: 560px;
+  margin-left: 595px;
   padding: 3vh;
   top: 50px;
   position: relative;
@@ -354,7 +355,7 @@ div.about {
 .bagian-projek .projek h3.projek,
 .bagian-certif .certif h3.certif,
 .bagian-contact .contact h3.contact,
-.bagian-about div.about h3.about {
+.bagian-about .about h3.about {
   color: #00c9f3;
   font-size: 1.5rem;
   text-align: center;
@@ -375,7 +376,7 @@ div.about {
 .bagian-projek .projek h3.projek span.projek2,
 .bagian-certif .certif h3.certif span.certif2,
 .bagian-contact .contact h3.contact span.contact2,
-.bagian-about div.about h3.about span.about2 {
+.bagian-about .about h3.about span.about2 {
   color: #0e2433;
 }
 
