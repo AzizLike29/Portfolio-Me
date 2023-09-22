@@ -828,37 +828,32 @@ button.form:hover {
 
   /* bagian about */
   div.about {
-    margin-left: -85px;
+    margin-left: -80px;
   }
 
   h3.about {
-    transform: translateY(-779%);
+    transform: translateY(-550%);
     position: fixed;
   }
 
   .about-img img {
-    top: 444px;
+    top: 410px;
     left: 40%;
     border: 1px solid #fff;
-  }
-
-  h3.about,
-  .about-img img {
-    position: fixed;
   }
 
   .bagian-about .row .content h3.teks-about,
   .bagian-about .row .content span.teks-about2 {
     position: relative;
     font-size: 1.1rem;
-    top: -6%;
-    left: 3px;
+    top: -9%;
+    left: 30px;
   }
 
   .bagian-about .row .content p {
     position: relative;
     bottom: -20px;
-    left: 4px;
+    left: 50px;
   }
 
   div.row {
@@ -871,7 +866,7 @@ button.form:hover {
   div.wrapper {
     position: static;
     transform: translateY(70%);
-    margin: 0px -40px;
+    margin: 0px 35px;
     text-align: center;
   }
 
