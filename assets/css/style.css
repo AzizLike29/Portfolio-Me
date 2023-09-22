@@ -239,7 +239,7 @@ div.about {
   display: inline-flex;
   margin-left: 595px;
   padding: 3vh;
-  top: 50px;
+  top: 55px;
   position: relative;
 }
 
@@ -290,7 +290,8 @@ div.about {
 }
 
 .wrapper .icon:hover .tooltip {
-  top: -70px;
+  left: -30px;
+  top: -53px;
   opacity: 1;
   pointer-events: auto;
 }
@@ -343,7 +344,7 @@ div.about {
 /* About section akhir */
 
 /* skill */
-.skill,
+.bagian-skill,
 .bagian-projek,
 .bagian-certif,
 .bagian-contact,
