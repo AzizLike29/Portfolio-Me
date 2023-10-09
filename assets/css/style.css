@@ -69,6 +69,10 @@ nav ul li a:hover {
   background-color: #526d82;
 }
 
+div.home-1 {
+  display: flex;
+}
+
 .home-img {
   display: flex;
   justify-content: flex-end;
@@ -179,6 +183,12 @@ div.about {
   margin-left: -5.8rem;
 }
 
+div.about-img img {
+  display: flex;
+  left: -2rem;
+  top: 42rem;
+}
+
 .bagian-about .row {
   display: flex;
 }
@@ -186,11 +196,6 @@ div.about {
 .bagian-about .row .about-img,
 .home .home-animate .home-img {
   flex: 1 1 1rem;
-}
-
-.about-img img,
-.home-img img {
-  overflow: hidden;
 }
 
 .bagian-about .row .about-img img {
@@ -202,6 +207,11 @@ div.about {
   transition: transform 0.2s ease;
   position: absolute;
   bottom: -225px;
+}
+
+h3.about {
+  display: flex;
+  justify-content: center;
 }
 
 .bagian-about .about-img img:hover,
@@ -364,13 +374,6 @@ div.about {
   letter-spacing: 5px;
   text-transform: uppercase;
   background-color: #9db2bf;
-}
-
-.bagian-about .about h3.about {
-  bottom: 22%;
-  width: 100%;
-  position: absolute;
-  padding: 0 100px;
 }
 
 .bagian-skill .skill h3.skill span.skill2,
